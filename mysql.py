@@ -13,7 +13,7 @@ connection = mysql.connector.connect(
     host="localhost",
     port=3306,
     user="root",
-    password="sandy890314",
+    password="password",
     database = 'sql_crawing'
 )
 cursor = connection.cursor() #連線
